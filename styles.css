@@ -1,1 +1,63 @@
-/* your code here */
+.variant ul{
+	display:flex;
+	list-style-type: none;
+}
+
+.variant ul li:hover{
+	border: 1px solid gray;
+	border-radius:5px;
+}
+
+.photo-album ul{
+	display:flex;
+	list-style-type: none;
+	gap:5px;
+}
+
+.photo-album ul li{
+	border:1px solid gray;
+	border-radius:5px;
+}
+
+body{
+	background-color:lightgreen;
+}
+
+.controls{
+	display:flex;
+	justify-content:space-between;
+	color:white;
+}
+
+.photo-main{
+	background-color:#a6cc21;
+	width:250px;
+	height:500px;
+}
+
+.photo-main img{
+	width:200px;
+}
+
+.product{
+	display:flex;
+	background-color:white;
+}
+
+.btn{
+	background-color:red;
+	border:none;
+	color:white;
+	height:30px;
+	width:150px;
+	border-radius:5px;
+	margin-left:10px;
+}
+
+.price{
+	color:red;
+}
+
+.price span{
+	font-size:30px;
+}
